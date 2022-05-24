@@ -1,0 +1,35 @@
+.contenedor-login button {
+    width: 45%;
+    height: 40px;
+    font: inherit;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-login ion-icon {
+    margin-right: 5%;
+}
+
+.contenedor-login label {
+    font-size: calc(1.275rem + .3vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.iniciacon {
+    font-weight: bold;
+}
+
+.btn_inicio_redes {
+    border-radius: 5%;
+}
+
+.img-fondo {
+    background-image: url(../../assets/img/login/fondo_login.png);
+    background-size: cover;
+    background-position: center;
+}

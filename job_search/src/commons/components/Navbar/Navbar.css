@@ -1,0 +1,88 @@
+.navbar {
+    background-color: var(--dark-background-color) !important;
+}
+
+.navbar-toggler {
+    padding: 2px;
+    font-size: 15px;
+    width: 2.5em;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar .navbar-toggler {
+    border: transparent;
+}
+
+.navbar-brand {
+    border: 1px dashed var(--grey-color);
+}
+
+.navbar-nav {
+    padding: 17px 0;
+}
+
+ion-icon {
+    font-size: 24px;
+}
+
+/* Mi perfil */
+.panel-header {
+    display: flex;
+    align-items: center;
+    min-width: 175px;
+    cursor: pointer;
+}
+
+.contenedor-perfil {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.perfil.user .user-image {
+    width: 42px;
+    height: 41px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0;
+    background: var(--golden-color);
+    color: var(--dark-color);
+    border: 1px solid var(--golden-color);
+}
+
+.perfil.user .user-info {
+    line-height: 1.2;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.perfil.user .user-info .user-role {
+    font-size: 100%;
+    color: #B1B1B2;
+}
+
+.perfil.user img {
+    max-width: 43px;
+}
+
+a.notification ion-icon:hover,
+a.login ion-icon:hover {
+    color: var(--golden-color);
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav {
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+}

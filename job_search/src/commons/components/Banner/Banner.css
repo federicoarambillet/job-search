@@ -1,0 +1,38 @@
+
+.container-banner {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: var(--white-color);
+}
+
+.header-container {
+    margin-top: 64px;
+    max-width: 588px;
+    margin-right: 24px;
+}
+
+.header-orange {
+    display: block;
+    height: 4px;
+    width: 80px;
+    background: var(--board-color);
+    margin-bottom: 28px;
+}
+
+.puntos {
+    width: 587px;
+    height: 190px;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.7) 1px, transparent 0px);
+    background-size: 24px 24px;
+}
+
+.container-banner .btn-primary{
+    background-color: var(--board-color);
+    border-color: var( --red-color);
+    margin-right: .5rem;
+}
+
+.container-banner .btn-primary:hover{
+    background-color: var(--white-color);
+}

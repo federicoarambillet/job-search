@@ -1,0 +1,37 @@
+.title-home {
+    color: #d93025;
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.home-hero .btn-primary {
+    background-color: var(--board-color);
+    border-color: var(--red-color);
+    margin-right: 0.5rem;
+}
+
+.home-hero .btn-primary:hover{
+    background-color: var(--white-color);
+}
+
+.home-hero {
+    padding: 1%;
+    margin: 8% 0;
+}
+
+.contenedor-home {
+    font-size: 5.5rem;
+    line-height: 68px;
+    margin-bottom: 54px;
+}
+
+
+.contenedor-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contenedor-img img {
+    max-width: 400px;
+}

@@ -1,0 +1,41 @@
+.btn-volver-registro {
+    background: transparent;
+    border: 1px dashed var(--board-color);
+    color: var(--board-color);
+}
+
+.btn-volver-registro:hover {
+    border: 1px dashed var(--dark-color);
+    color: var(--dark-color);
+}
+
+.registro button {
+    width: 45%;
+    height: 44px;
+    font: inherit;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid var(--white-color);
+}
+
+input[type='radio']:after {
+    background-color:  var(--light-grey-color);
+}
+
+input[type='radio']:checked:after {
+    background-color: var(--grey-color);
+}

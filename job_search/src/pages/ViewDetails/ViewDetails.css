@@ -1,0 +1,121 @@
+ .main-container {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-background-color);
+    color: white;
+}
+
+.main-container h1{
+   font-size: calc(2rem + 2.5vw);
+   letter-spacing: -.075em;
+   line-height: 1.125;
+   margin-bottom: .5rem;
+}
+.main-container p{
+   line-height: 1.5; 
+   margin-bottom: 1rem;
+}
+
+.main-container .btn-primary{
+    background-color: var(--board-color);
+    border-color: var( --red-color);
+    margin-right: .5rem;
+}
+
+.main-container .btn-primary:hover{
+    background-color: var(--white-color);
+}
+  
+/* HEADER STYLES */
+.main-container .header{
+   height: 100vh;
+   overflow: hidden;
+   position: relative;
+}
+
+.main-container .header-nav{
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.main-container .header-menu{
+   display: flex;
+   list-style: none;
+}
+
+.main-container .header-menu-item{
+   font-size: .875rem;
+   margin-left: 1rem;
+}
+
+.main-container .header-menu-item:hover{
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.main-container .header-content{
+
+   max-width: 600px;
+}
+  
+/* COMPONENTS */
+.main-container .container{
+   margin: auto;
+   max-width: 1140px;
+   padding: 1.5rem;
+   margin-top: 2.5%;
+}
+
+/* GEOMETRIC SHAPE BACKGROUND */
+.geometric-bg{
+   background:  var(--board-color);
+   height: 1600px;
+   position: none;
+   transform: rotate(-35deg);
+   top: -850px;
+   left: 78%;
+   width: 1920px;
+   z-index: 0;
+}
+
+.geometric-bg:after{
+   background:  var(--board-color);
+   border-radius: .5rem;
+   content: "";
+   display: block;
+   height: 120px;
+   left: -100px;
+   position: absolute;
+   top: 30%;
+   width: 120px;
+}
+
+.geometric-bg:before{
+   background: var(--dark-background-color);
+   border-radius: .5rem;
+   content: "";
+   display: block;
+   height: 120px;
+   left: -5px;
+   position: absolute;
+   top: 35%;
+   width: 120px;
+}
+
+.main-container strong {
+    font-weight: 900;
+}
+
+ion-icon {
+    margin-right: 1%;
+}
+
+@media only screen and (min-width: 946px) {
+    .geometric-bg {
+        position: absolute;
+  }
+}

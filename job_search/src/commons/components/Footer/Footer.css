@@ -1,0 +1,22 @@
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: var(--white-color);
+}
+
+footer a {
+    color: var(--white-color);
+}
+
+footer a:hover {
+    color: var(--white-color);
+    opacity: 0.9;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+.fondo_dark {
+    background-color: var(--dark-color);
+}

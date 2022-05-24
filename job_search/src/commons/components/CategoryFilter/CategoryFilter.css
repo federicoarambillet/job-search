@@ -1,0 +1,86 @@
+.banner {
+    background-image: url(../../../assets/img/categoryFilter/banner_category.jpg);
+    background-size: cover;
+    background-position: center;
+
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-header {
+    margin-top: 1%;
+    background-color: var(--dark-background-color);
+    padding: 5px 10px;
+    color: var(--white-color);
+    border: 1px dashed #8a8a8a;
+}
+
+select {
+    font-size: 17px;
+}
+
+.conteiner-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-select form {
+    flex-direction: column;
+}
+
+.selectdiv {
+    position: relative;
+    min-width: 135px;
+}
+
+.selectdiv:after {
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    transform: rotate(90deg);
+    right: 11px;
+    top: 18px;
+    padding: 0 0 2px;
+    position: absolute;
+}
+
+.selectdiv select {
+    appearance: none;
+    width: 100%;
+    height: 52px;
+    float: right;
+    margin: 3px 0px;
+    padding: 0px 35px;
+}
+
+.conteiner-button button {
+    width: 100%;
+    height: 55px;
+    margin: 3px 0px;
+    padding: 0px 80px;
+    background-color: var(--white-color);
+}
+
+.border-radius-left {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.border-radius-right {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.banner form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 933px) {
+    .conteiner-select form {
+        flex-direction: row;
+    }
+}
